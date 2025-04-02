@@ -1,0 +1,98 @@
+
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #EAEDED; /* Light gray-blue */
+    color: gray-blue;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+h1 {
+    text-align: center;
+    color: #1F618D; /* Deep blue */
+    margin-top: 20px;
+}
+
+/* Ordered list styling */
+ol {
+    margin: 20px;
+    padding: 10px;
+    background-color: #FFFFFF;
+    border-left: 5px solid #2874A6; /* Dark cyan blue */
+}
+
+li {
+    font-size: 18px;
+    padding: 5px;
+    color: #154360; /* Dark navy blue */
+}
+
+/* Image styling */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border: 3px solid #2874A6; /* Dark cyan blue */
+    border-radius: 10px;
+}
+
+/* Table styling */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #FDFEFE; /* White */
+}
+
+th, td {
+    border: 1px solid #AAB7B8; /* Light gray */
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #1F618D; /* Deep blue */
+    color: white;
+}
+
+/* Form styling */
+form {
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #FDFEFE; /* White */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    color: #154360; /* Dark navy blue */
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #AAB7B8; /* Light gray */
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #1F618D; /* Deep blue */
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+input[type="submit"]:hover {
+    background-color: #154360; /* Dark navy blue */
+}
